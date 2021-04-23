@@ -1,0 +1,26 @@
+.icons {
+  display: flex;
+  cursor: pointer;
+  border: solid 1px #ccc;
+  align-items: center;
+}
+
+.icons > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+.icons > h2 {
+  font-size: 20px;
+  font-weight: 750;
+  border: solid 1px red;
+}
+
+.icon-active {
+  color: #50b7f5;
+}
+
+.icons:hover {
+  background-color: #e8f5fe;
+  border-radius: 35px;
+  color: #50b7f5;
+}
